@@ -2,6 +2,10 @@ package ByteBankHerdado;
 
 public class Teste {
    public static void main(String[] args) {
+
+      Autenticavel referencia = new Administrador();
+      referencia.autentica(3333);
+
       Gerente g1 = new Gerente();
       g1.setCpf("555555");
       g1.setNome("gh");
