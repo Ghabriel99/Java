@@ -12,7 +12,7 @@ public class TesteFuncionario {
 
       gh.setCpf("1885551891");
       gh.setNome("GHABRIEL");
-      gh.setSalario(3000);
+      gh.setSalario(300000);
 
       System.out.println(gh.getNome());
       System.out.println(gh.getCpf());
